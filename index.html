@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        
-        <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Torshov</h1>
-            <h2>Enjoy culture and sports in this vibrant district close to the center of Oslo.</h2>
-        </div>
-        
-        <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three activities to do at Torshov</h3>
-            <img src="images/libraryofbirmingham.jpg">
-            <img src="images/winterbourne.jpg">
-            <img src="images/edgabstonstadium.jpg">
-        </div>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
 
-        <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/me.jpg">
+    <!-- HERO SECTION -->
+    <div id="hero-section">
+        <h1>Visit Birmingham</h1>
+        <p id="hero-paragraph">Enjoy culture, sports and food in this vibrant city second city of England.</p>
+    </div>
+    
+    <!-- ACTIVITIES SECTION -->
+    <div id="activity-section">
+        <h2 id="activity-title">Top three activities to do in Birmingham</h2>
+        <div id="activity-content">
+            <div class="activity">
+                <img src="./images/libraryofbirmingham.jpg" id="library" class="activity-image" alt="Library of Birmingham">
+                <h3>The Library of Birmingham</h3>
+                <p>The ten-level Library shares a spacious entrance and foyer as well as a flexible studio theatre seating 300 people with the Birmingham Repertory Theatre.</p>
+            </div>
+            <div class="activity">
+                <img src="./images/winterbourne.jpg" id="winterbourne" class="activity-image" alt="Winterbourne Gardens">
+                <h3>Winterbourne House and Garden</h3>
+                <p>Restored to its Edwardian Arts and Craft splendour, Winterbourne House is a unique heritage attraction set within seven acres of beautiful botanic gardens.</p>
+            </div>
+            <div class="activity">
+                <img src="./images/edgabstonstadium.jpg" id="edgbaston" class="activity-image" alt="Edgbaston Cricket Stadium">
+                <h3>Edgbaston Stadium</h3>
+                <p>A regular host of major domestic and international cricket, Edgbaston Stadium is known across the globe for world-class cricket.</p>
+            </div>
         </div>
-    </body>
+    </div>
+
+    <!-- HISTORY SECTION -->
+    <div id="history">
+        <div id="history-details">
+            <h2 class="h2-margin">Discover Birmingham's Rich History and Heritage</h2>
+            <p id="history-paragraph">As its population swelled, the industries flourished as Birmingham became known as the “city of a thousand trades” and “the engine room of the UK”. It played a major role in the Industrial Revolution, leading the way in manufacturing thanks to its bustling factories and workshops. Ammunition, guns, metalware, tools and watches were among an array of products that were produced in Birmingham.</p>
+        </div>
+        <img src="./images/birmingham-history.jpeg" id="history-img" alt="Historical photo of Birmingham">
+    </div>
+
+    <!-- GUIDE SECTION -->
+    <div id="guide-section">
+        <div id="guide-img"></div>
+        <div id="guide-details">
+            <h2 class="h2-margin">Your tour guide</h2>
+            <p>“I have lived in Birmingham all my life, so let me introduce you to my favourite activities here."</p>
+            <h4>- Fayham Alom</h4>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <p>&copy; Fayham Alom 2024. All rights are reserved</p>
+    </div>
+</body>
 </html>
